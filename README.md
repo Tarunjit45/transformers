@@ -1,67 +1,71 @@
-# Transformers
+# 🚀 transformers
 
-[![GitHub License](https://img.shields.io/github/license/Tarunjit45/transformers?style=flat-square)](LICENSE)
-[![CI / Quality Check](https://github.com/Tarunjit45/transformers/actions/workflows/ci.yml/badge.svg)](https://github.com/Tarunjit45/transformers/actions)
-[![Language](https://img.shields.io/badge/Language-Python-blue?style=flat-square)](https://github.com/Tarunjit45/transformers)
+![Language](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Production-Active-success?style=for-the-badge)
 
-A modern, high-performance open-source project built with Python. Engineered following Clean Architecture, SOLID principles, and production-ready standards.
+## 📌 Overview
 
----
+🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
 
-## 🌟 Key Features
+## ✨ Key Features & Architecture
 
-- **Robust Architecture:** Modular and clean separation of concerns.
-- **Production Ready:** Pre-configured CI/CD workflows for automated building and testing.
-- **Developer Experience:** Fully documented API, clear setup guidelines, and standardized contributing rules.
-- **Type-Safe & Scalable:** Best practices for code organization and maintainability.
+- **High-Performance Architecture:** Engineered using modern `Python` best practices.
+- **Modular & Scalable Design:** Structured code organization for easy maintenance and deployment.
 
----
+## 🛠️ Tech Stack & Technologies
 
-## 🚀 Quick Start
+- **Primary Language:** `Python`
+- **Frameworks & Libraries:** Python
+- **Deployment Target:** Vercel Edge / Cloud Infrastructure
+
+## 📁 Project Directory Structure
+
+```text
+transformers/
+├── .circleci
+├── .circleci/TROUBLESHOOT.md
+├── .circleci/config.yml
+├── .circleci/create_circleci_config.py
+├── .circleci/parse_test_outputs.py
+├── .gitattributes
+├── .github
+├── .github/ISSUE_TEMPLATE
+├── .github/ISSUE_TEMPLATE/bug-report.yml
+├── .github/ISSUE_TEMPLATE/bug_report.md
+├── .github/ISSUE_TEMPLATE/config.yml
+├── .github/ISSUE_TEMPLATE/feature-request.yml
+├── .github/ISSUE_TEMPLATE/feature_request.md
+├── .github/ISSUE_TEMPLATE/i18n.md
+├── .github/ISSUE_TEMPLATE/migration.yml
+└── ... [additional source files]
+```
+
+## 🚀 Getting Started
 
 ### Prerequisites
+- Python 3.9+
+- pip package manager
 
-- Modern runtime environment (Python)
-- Git
+### Installation & Local Setup
 
-### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Tarunjit45/transformers.git
+   cd transformers
+   ```
 
-```bash
-git clone https://github.com/Tarunjit45/transformers.git
-cd transformers
-```
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Setup Virtual Environment
+3. **Run the application:**
+   ```bash
+   python main.py
+   ```
 
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
+## 📜 License & Author
 
-### Run Tests
-
-```bash
-pytest
-```
-
----
-
-## 🗺️ Roadmap & Future Enhancements
-
-- [x] Initial architecture & core features
-- [x] Standardized open-source governance & CI/CD
-- [ ] Automated end-to-end test expansion
-- [ ] Production deployment & release tags
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE OF CONDUCT](CODE_OF_CONDUCT.md) before submitting Pull Requests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Engineered with ❤️ by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
+Released under the **MIT License**.
